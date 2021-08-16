@@ -33,8 +33,8 @@ h4{
 <div class="container-fluid">
   <div class="row">
    
-  <?php include 'includes/left-nav.php' ?>
-  <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+  <?php include 'includes/top-nav.php' ?>
+  <main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-4">
   <h1>Products</h1>
 <hr>
     <div class="row">
@@ -54,6 +54,7 @@ h4{
 <th>#</th>
 <th>Name</th>
 <th>Price</th>
+<th>Q</th>
 <th>Controls</th>
 </tr>
 </thead>
@@ -62,6 +63,7 @@ h4{
 <td><img width="100px" src="http://pos.templatesvalley.com/uploads/products/thumb/221.jpg"></td>
 <td>Pizza</td>
 <td>150</td>
+<td>15</td>
 <td class="text-right" style=" display: inline-flex; ">
 <form id="delete-customer" action="#" method="POST" class="form-inline">
 <input type="hidden" name="_method" value="delete">
@@ -75,6 +77,7 @@ h4{
 <td><img width="100px" src="http://pos.templatesvalley.com/uploads/products/thumb/221.jpg"></td>
 <td>Pizza</td>
 <td>150</td>
+<td>15</td>
 <td class="text-right" style=" display: inline-flex; ">
 <form id="delete-customer" action="#" method="POST" class="form-inline">
 <input type="hidden" name="_method" value="delete">
@@ -88,6 +91,7 @@ h4{
 <td><img width="100px" src="http://pos.templatesvalley.com/uploads/products/thumb/221.jpg"></td>
 <td>Pizza</td>
 <td>150</td>
+<td>15</td>
 <td class="text-right" style=" display: inline-flex; ">
 <form id="delete-customer" action="#" method="POST" class="form-inline">
 <input type="hidden" name="_method" value="delete">
@@ -101,6 +105,7 @@ h4{
 <td><img width="100px" src="http://pos.templatesvalley.com/uploads/products/thumb/221.jpg"></td>
 <td>Pizza</td>
 <td>150</td>
+<td>15</td>
 <td class="text-right" style=" display: inline-flex; ">
 <form id="delete-customer" action="#" method="POST" class="form-inline">
 <input type="hidden" name="_method" value="delete">
@@ -114,6 +119,7 @@ h4{
 <td><img width="100px" src="http://pos.templatesvalley.com/uploads/products/thumb/221.jpg"></td>
 <td>Pizza</td>
 <td>150</td>
+<td>15</td>
 <td class="text-right" style=" display: inline-flex; ">
 <form id="delete-customer" action="#" method="POST" class="form-inline">
 <input type="hidden" name="_method" value="delete">
@@ -127,6 +133,7 @@ h4{
 <td><img width="100px" src="http://pos.templatesvalley.com/uploads/products/thumb/221.jpg"></td>
 <td>Pizza</td>
 <td>150</td>
+<td>15</td>
  <td class="text-right" style=" display: inline-flex; ">
 <form id="delete-customer" action="#" method="POST" class="form-inline">
 <input type="hidden" name="_method" value="delete">
@@ -140,6 +147,7 @@ h4{
 <td><img width="100px" src="http://pos.templatesvalley.com/uploads/products/thumb/221.jpg"></td>
 <td>Pizza</td>
 <td>150</td>
+<td>15</td>
 <td class="text-right" style=" display: inline-flex; ">
 <form id="delete-customer" action="#" method="POST" class="form-inline">
 <input type="hidden" name="_method" value="delete">
@@ -153,6 +161,7 @@ h4{
 <td><img width="100px" src="http://pos.templatesvalley.com/uploads/products/thumb/221.jpg"></td>
 <td>Pizza</td>
 <td>150</td>
+<td>15</td>
 <td class="text-right" style=" display: inline-flex; ">
 <form id="delete-customer" action="/91" method="POST" class="form-inline">
 <input type="hidden" name="_method" value="delete">
@@ -166,8 +175,6 @@ h4{
 </table>
 </div>
 </div>
-
-
        </div>
   </div>
 

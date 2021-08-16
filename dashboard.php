@@ -5,10 +5,10 @@
 <div class="container-fluid">
   <div class="row">
    
-  <?php include 'includes/left-nav.php' ?>
+  <?php include 'includes/top-nav.php' ?>
 
 
-    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+  <main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-4">
 
 
 

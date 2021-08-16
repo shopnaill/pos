@@ -34,8 +34,8 @@ h4{
 <div class="container-fluid">
   <div class="row">
    
-  <?php include 'includes/left-nav.php' ?>
-  <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+  <?php include 'includes/top-nav.php' ?>
+  <main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-4">
   <h1>Users</h1>
 <hr>
     <div class="row">
